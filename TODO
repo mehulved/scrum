@@ -2,19 +2,14 @@ User:
   - id
   - name
   - phone_number
-  - status
 
-User Group:
+User Call:
   - user_id
   - group_id
-
-Group:
-  - id
-  - name
-  - description
+  - status
 
 Call:
   - id
   - name
   - description
-  - group_id
+  - start_time
